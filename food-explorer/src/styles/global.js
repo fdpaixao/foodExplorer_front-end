@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from "styled-components"
 
 export default createGlobalStyle`
     * {
@@ -11,14 +11,14 @@ export default createGlobalStyle`
         background-color: ${({ theme }) => theme.COLORS.DARK_400};
         color: ${({ theme }) => theme.COLORS.LIGHT_100};
 
-        -webkit-font-smoothing: antialiased;
+        -webkit-font-smooting: antialiased;
     }
 
     body, input, button, textarea {
         font-family: 'Poppins', sans-serif;
-        font-family: 'Roboto', sans-serif;
         font-size: 16px;
         outline: none;
+        /* font-family: 'Roboto', sans-serif; */
     }
 
     a {
@@ -33,5 +33,4 @@ export default createGlobalStyle`
     button:hover, a:hover {
         filter: brightness(0.9);
     }
-
-`
+`;
